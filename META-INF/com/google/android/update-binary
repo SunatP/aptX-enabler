@@ -4,8 +4,8 @@ ZIP=$3
 ui_print() { echo -e "ui_print $1\nui_print" > $OUTFD; }
 
 mount /system
-ui_print "AptX and AptX-HD Enabler for Note 4 Custom ROM (android 10+)"
-ui_print "By ProtonFaker"
+ui_print "AptX and AptX-HD Enabler for Note 4 Custom ROM (android 9+)"
+ui_print "By SunatP as ProtonFaker"
 ui_print " "
 ui_print "extracting files..."
 unzip "$ZIP" -d /tmp
